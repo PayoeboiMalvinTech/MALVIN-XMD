@@ -127,7 +127,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363306168354073@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐιτ',
+                    newsletterName: '𝙼𝙰𝙻𝚅𝙸𝙽 𝚇𝙼𝙳 𝚆.𝙰 𝙱𝙾𝚃',
                     serverMessageId: 143
                 }
             }
