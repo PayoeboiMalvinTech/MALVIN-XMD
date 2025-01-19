@@ -23,16 +23,16 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 //  📌 𝘁𝗿𝘂𝗲 𝗼𝗿 𝗳𝗮𝗹𝘀𝗲 𝗮𝘀 𝗬𝗼𝘂 𝗟𝗶𝗸𝗲 📌 if you want auto reply on status 
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Jᴜsᴛ Nᴏᴡ Sᴛᴀᴛᴜs Sᴇᴇɴ Bʏ Mᴀʟᴠɪɴ-Xᴍᴅ*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Just now your status viewed by ᴍᴀʟᴠɪɴ xᴍᴅ*",
 // set the auto reply massage on status reply  
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 
-BOT_NAME: process.env.BOT_NAME || "MALVIN-XMD",
+BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ xᴍᴅ",
 // add bot namw here for menu
 
-STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XMD",
+STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ xᴍᴅ",
 // type sticker pack name 
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -50,7 +50,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
 OWNER_NAME: process.env.OWNER_NAME || "Mʀ Mᴀʟᴠɪɴ",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
+DESCRIPTION: process.env.DESCRIPTION || "*© sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!*",
 // add bot owner name 
 
 MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/7pg2gp.jpg",
