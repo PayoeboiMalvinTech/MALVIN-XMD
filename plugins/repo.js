@@ -95,42 +95,39 @@ async (conn, mek, m, { from, reply }) => {
 
 *𝑇𝒉𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑢𝑠𝑖𝑛𝑔 𝑴𝑨𝑳𝑽𝑰𝑵 𝑿𝑴𝑫🌹🫶* 
 
-> Don't forget to star & fork the repo🌟🍴
+╭───────────────━⊷
+║ 🚀 𝐌𝐀𝐋𝐕𝐈𝐍 𝐗𝐌𝐃 𝐑𝐄𝐏𝐎 𝐈𝐍𝐅𝐎 🚀
+╰───────────────━⊷
+╭───────────────━⊷
+║💡 *ɴᴀᴍᴇ:* ${repoData.name}
+║⭐ *ᴛᴏᴛᴀʟ sᴛᴀʀs:* ${repoData.stargazers_count}
+║🍴 *ᴛᴏᴛᴀʟ ғᴏʀᴋs:* ${repoData.forks_count}
+║👀 *ᴡᴀᴛᴄʜᴇʀs:* 1
+║👤 *ᴏᴡɴᴇʀ:* sɪʀ ${repoData.owner.login}
+║❗ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:* ${repoData.description || 'No description'}
+╰───────────────━⊷
 
-https://github.com/kingmalvn/MALVIN-XMD
-──────────────────
-${readMore}
-\`BOT NAME:\`💙
-> ${repoData.name}
+> ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴
 
-\`OWNER NAME:\`👨‍💻
-> ${repoData.owner.login}
+║ ʀᴇᴘᴏ ʟɪɴᴋ: https://github.com/kingmalvn/MALVIN-XMD
+╰───────────────━⊷
 
-\`STARS:\`🌟
-> ${repoData.stargazers_count}
-
-\`FORKS:\`🍴
-> ${repoData.forks_count}
-
-\`DESCRIPTION:\`📃
-> ${repoData.description || 'No description'}\n
-──────────────────
-\n> *© ᴊᴏɪɴ ᴍᴀʟᴠɪɴ xᴍᴅ ɴᴇxᴜs ᴄʜᴀɴɴᴇʟ* 🎐`;
+> sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/7pg2gp.jpg` },
             caption: formattedInfo,
             contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363306168354073@newsletter',
-                    newsletterName: '𝙼𝙰𝙻𝚅𝙸𝙽 𝚇𝙼𝙳 𝚆.𝙰 𝙱𝙾𝚃',
-                    serverMessageId: 143
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363306168354073@newsletter',
+                        newsletterName: 'ᴍᴀʟᴠɪɴ xᴍᴅ ᴡᴀ ᴄʜᴀɴɴᴇʟ',
+                        serverMessageId: 143
+                    }
                 }
-            }
         }, { quoted: mek });
 
         // Send the audio file with context info
@@ -144,7 +141,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363306168354073@newsletter',
-                    newsletterName: '𝙼𝙰𝙻𝚅𝙸𝙽 𝚇𝙼𝙳 𝚆.𝙰 𝙱𝙾𝚃',
+                    newsletterName: 'ᴍᴀʟᴠɪɴ xᴍᴅ ᴡᴀ ᴄʜᴀɴɴᴇʟ',
                     serverMessageId: 143
                 }
             }

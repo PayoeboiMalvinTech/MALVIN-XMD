@@ -10,7 +10,7 @@ Support      : wa.me/263714757857
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
-    pattern: "alive",
+    pattern: "live",
     react: "💗",
     desc: "Check bot online or no.",
     category: "main",
